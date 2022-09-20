@@ -1,0 +1,2 @@
+
+inter arry stra
