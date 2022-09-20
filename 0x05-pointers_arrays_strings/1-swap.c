@@ -13,7 +13,3 @@ int i = *a;
 *a = *b;
 *b = i;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
