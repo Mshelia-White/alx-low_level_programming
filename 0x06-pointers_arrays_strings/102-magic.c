@@ -1,30 +1,23 @@
-#include "main.h"
+#include <stdio.h>
 
-void print_uint(unsigned int n);
-
-/**
-* print_number - Prints an integer
-* @n: The integer to print
-*/
-
-void print_number(int n)
+int main(void)
 {
-if (n < 0)
-{
-_putchar('-');
-n = -n;
-}
-print_uint((unsigned int) n);
-}
+  int n;
+  int a[5];
+  int *p;
 
-/**
-* print_uint - Prints an unsigned integer
-* @n: The unsigned int to print
-*/
-
-void print_uint(unsigned int n)
-{
-if (n / 10 != 0)
-print_uint(n / 10);
-_putchar(n % 10 + '0');
+  a[2] = 1024;
+  p = &n;
+  /*
+   * write your line of code here...
+   * Remember:
+   * - you are not allowed to use a
+   * - you are not allowed to modify p
+   * - only one statement
+   * - you are not allowed to code anything else than this line of code
+   */
+  p[5] = 98;
+  /* ...so that this prints 98\n */
+  printf("a[2] = %d\n", a[2]);
+  return (0);
 }
