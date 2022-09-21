@@ -18,7 +18,3 @@ a[i] = a[j];
 a[j] = temp;
 }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
